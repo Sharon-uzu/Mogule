@@ -1,0 +1,603 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/styles/style.css">
+    <link rel="stylesheet" href="assets/styles/media.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Real Estate</title>
+</head>
+<body>
+
+ 
+
+  <div class="header">
+
+    <header style="background-color: #fff; padding: .5rem 0; position: fixed; width: 100%; border-bottom: 1px solid hsla(0, 0%, 13%,.4); z-index: 1000;">
+      <nav class="navbar navbar-expand-lg navbar-light header-nav" >
+          <div class="container-fluid">
+            <a class="navbar-brand logo" href="index.html"><img src="./assets/images/logo-stacked-black.ca6b1bab.svg" alt=""></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0 lists">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="pages/invest.html">BROWSE INVESTMENT</a>
+                </li>
+                
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    REITS
+                  </a>
+                  <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <li><a class="dropdown-item" href="pages/incomeR.html">INCOME REIT</a></li>
+                    <li><a class="dropdown-item" href="#">GROWTH REIT</a></li>
+                    <li><a class="dropdown-item" href="#">WHY REITS</a></li>
+                  </ul>
+                </li>
+
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    RESEARCH
+                  </a>
+                  <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <li><a class="dropdown-item" href="#">TRACK RECORDS</a></li>
+                    <li><a class="dropdown-item" href="#">PAST INVESTMENT</a></li>
+                    <li><a class="dropdown-item" href="#">BENEFITS OF INVESTING</a></li>
+                  </ul>
+                </li>
+
+                <li class="nav-item">
+                  <a class="nav-link" href="#">OUR STORY</a>
+                </li>
+
+                  
+              </ul>
+              <form class="d-flex in">
+                  <li class="nav-item">
+                      <a class="nav-link" style="cursor: pointer;" id="sign">SIGN IN</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link blue-link" style="cursor: pointer;" id="join">JOIN</a>
+                  </li>
+              </form>
+              
+            </div>
+          </div>
+        </nav>
+  </header>
+
+
+  </div>
+
+  <!-- sign -->
+
+
+  <div class="sign" id="pop1">
+  
+
+    <form>
+      <div class="top">
+        <h4>SIGN IN <span style="cursor: pointer;" id="x1">CLOSE X</span> </h4>
+      </div>
+
+      <p>Don’t have an account yet? <span style="cursor: pointer;" id="switch1"> Join RealtyMogul > </span> </p>
+
+      <h3>Please enter your email and password below.</h3>
+
+      <div class="input">
+        <input type="email" name="" id="" placeholder="Email*"> <br>
+        <input type="password" name="" id="" placeholder="Password*">
+        <button type="submit">SIGN IN TO REALMOGUL</button>
+
+        <a href="">Forgot Password?</a>
+
+        
+      </div>
+      <div class="form-f">
+        <p>Questions? Our Investor Relations team is available</p>
+        <h3>8AM-6PM PST M-F. <a href="">(877) 977-2776</a> </h3>
+      </div>
+      
+    </form>
+  </div> 
+
+
+  <!-- join -->
+
+  <div class="join" id="pop2">
+    <form>
+      <div class="top">
+        <h4>JOIN REALTYMOGUL <span style="cursor: pointer;" id="x2">X</span> </h4>
+      </div>
+      <div class="form">
+        <h3>Create an account or <span style="cursor: pointer;" id="switch2">sign in.</span> </h3>
+        <div class="input1">
+          
+          <input type="text" placeholder="First Name *">
+          <input type="text" placeholder="Last Name *">
+        </div>
+        <div class="inv">
+          <div class="acc">
+            <p>Are you an Accredited Investor? </p>
+          </div>
+          <div class="radio">
+             
+            <input type="radio" name="" id="" > <span>Yes</span>
+            <input type="radio" name="" id=""> <span>No</span>
+          </div>
+        </div>
+
+        <input type="tel" name="" id="" placeholder="Phone" class="tel">
+        <div class="txt">
+          <input type="checkbox" name="" id="check" style="margin-right: 12px;"> Send me text messages from RealtyMogul about new offers</span>
+
+        </div>
+        <input type="email" name="" id="" placeholder="Email *" class="tel" style="margin-top: 1.2rem;" >
+        <input type="password" name="" id="" placeholder="Password *" class="tel"  style="margin-top: 1.2rem;">
+
+        <h6>Password should be at least 8 characters, contain an uppercase character, a lowercase character, a number and a symbol.</h6>
+
+        <button type="submit">JOIN REALTYMOGUL</button>
+
+        
+
+      </div>
+    </form>
+  </div>
+    
+
+   
+
+    <!-- hero-s -->
+
+    <div class="hero-s">
+        <h3>Build the future you want.</h3>
+        
+        <h4>INVEST IN COMMERCIAL REAL ESTATE & CRYPTO TODAY.</h4>
+        <button id="get">GET STARTED</button>
+
+
+        
+    </div>
+
+    <!-- explore -->
+
+    <div class="explore">
+        <div class="explore-l">
+            <h2>Explore opportunities beyond stocks and bonds</h2>
+            <h5>Diversify with commercial real estate with the potential to generate income and grow in value.</h5>
+            <a href=""><button>OPEN INVESTMENT</button></a>
+        </div>
+        <div class="explore-r">
+            <div class="one ex">
+                <h3>ACCESS</h3>
+                <h5>Private market offerings</h5>
+                <span>274,000+ investors have joined.</span>
+            </div>
+            <div class="one ex">
+                <h3>INVEST</h3>
+                <h5>In private placements and Real Estate Investment Trusts (“REITS”)</h5>
+                <span>Over $1 billion invested on the platform.</span>
+                
+            </div>
+            <div class="one">
+                <h3>GAIN</h3>
+                <h5>Exposure to more deals</h5>
+                <span>Over $5.9 billion in deals posted on the platform.</span>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- platform -->
+    <div class="platform">
+        <div class="overlay">
+            <div class="overlay-txt">
+                <h2>You deserve more than just an investment platform</h2>
+                <p>Join RealtyMogul and Navigate Through Uncertain Markets.</p>
+    
+                <a href=""><button>VIEW INVESTMENT</button></a>
+            </div>
+           
+        </div>
+        <div class="p-text">
+            <div class="p-t1 p-t">
+                <div class="p-txt1">
+                    <h3>ACCESS & TRANSPARENCY</h3>
+                    <p>Thoughtful, transparent information enables you to make personal decisions in pursuit of your financial goals.</p>
+                </div>
+            </div>
+                
+            <div class="p-t1">
+                <div class="p-txt1">
+                    <h3>GET THE HELP YOU NEED</h3>
+                    <p>Reach out and connect with a dedicated Investor Relations team member anytime you have questions about the Platform.</p>
+                </div>
+            </div>
+                
+        </div>
+    </div>
+
+
+    <!-- income -->
+
+    <div class="income">
+        <div class="income-c">
+            <div class="invest">
+                <span class="obj">Objective: Income</span>
+                <h2>
+                    Members can invest in professionally managed, well-leased properties
+                </h2>
+                <p>
+                    RealtyMogul simplifies commercial real estate investing, giving Members access to commercial real estate opportunities with the potential to generate income.
+                </p>
+            </div>
+            <div class="price">
+                <div class="token"><span class="pre-symbol">$</span><span class="token-text">5.9</span><span class="post-symbol">BN</span></div>
+                <h5>of Property Value Offered on the RealtyMogul platform since inception and as of December 31, 2022 
+                </h5>
+            </div>
+        </div>
+    </div>
+
+    <!-- record -->
+
+    <div class="record">
+        <h3>Overall Track Record†</h3>
+        <span>$208,390,450</span>
+        <h6>TOTAL REALIZED INVESTMENT AMOUNT</h6>
+
+        <div class="record-flex">
+            <div class="r-f1">
+                <span>223</span>
+                <h6>TOTAL REALIZED INVESTMENTS</h6>
+
+            </div>
+
+            <div class="r-f1">
+                <span>20.7%</span>
+                <h6>OVERALL REALIZED IRR</h6>
+                
+            </div>
+
+            <div class="r-f1">
+                <span>15.0%</span>
+                <h6>OVERALL TARGET IRR</h6>
+                
+            </div>
+
+
+        </div>
+
+        <a href=""><button>VIEW TRACK RECORD</button></a>
+
+        <p>†Track record of Investments made on the RealtyMogul Platform. Past performance is not indicative of future results and should not be used as a basis to invest. Investment opportunities on the Realty Mogul Platform are speculative and involve substantial risk. Excludes certain Excluded Investments, including by RealtyMogul’s affiliated REITs. Information as of December 31, 2022. Please carefully review all Disclaimers and Defined Terms on the Track Record page.</p>
+
+    </div>
+
+
+    <!-- real -->
+
+    <div class="real">
+        <div class="real-c">
+
+            <div class="future">
+                <h2>The future of real estate investing</h2>
+                <p>It has always been our mission to give investors access to diverse, institutional-quality real estate opportunities, and we’re proud of the diversity that has been hosted on the Platform.</p>
+                <button id="gets">GET STARTED</button>
+            </div>
+
+            <div class="members">
+                <div class="inv">
+                    <span>274K+</span>
+                    <h4>MEMBERS</h4>
+                    <p></p>
+                </div>
+
+                <div class="inv">
+                    <span>35,300+</span>
+                    <h4>INVESTMENTS MADE</h4>
+                    <p></p>
+                </div>
+
+                <div class="inv">
+                    <span>$1BN+</span>
+                    <h4>CAPITAL INVESTED*</h4>
+                    <p></p>
+                </div>
+
+                <div class="inv">
+                    <span>>$5.9BN</span>
+                    <h4>IN REAL ESTATE NATIONWIDE</h4>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+
+    <!-- journal -->
+
+    <div class="journal">
+        <img src="./assets/images/download (2).webp" alt="">
+        <h6>"RealtyMogul lets investors browse, conduct due diligence, invest and track the performance of their investments through an online dashboard."</h6>
+    </div>
+
+    <!-- disclaimer -->
+    <div class="disclaimer">
+        <h6>Disclaimers</h6>
+        <p>*Capital invested includes: (i) common equity investments in real estate companies and funds; (ii) fixed income investments including preferred equity, senior debt, and mezzanine debt in connection with the acquisition or refinance of commercial real estate; (iii) residential debt investments in connection with financing the acquisition, improvement/renovation, and sale of single family homes; and (iii) loans originated for sale which include non-fractionalized loans sold to institutional buyers. Includes capital that has been deployed by, as well as material amounts of committed but undeployed cash held by, affiliated and unaffiliated real estate companies and funds, including cash in real estate funds that has been returned from completed investments. Certain investments are made by Realty Mogul, Co. or its affiliates. This information should not be used as a basis for an investor’s decision to invest. Investment opportunities on the RealtyMogul Platform are speculative and involve substantial risk.</p>
+    </div>
+
+
+    <!-- projects -->
+        
+    <section class="carousel proj">
+        <div class="container my-5 discount-m" style="margin: auto; margin-bottom: 0;">
+          <div class="row">
+            <div class="owl-carousel first-carousel owl-theme">
+              
+              <div class="item">
+                <div class="card">
+                  <img src="assets/images/download.webp" alt="image" class="card-img-top">
+
+                  <div class="deals">
+                    <h5>Term: <span>14months</span> </h5>
+                    <p>LTV: <span>56%</span> </p>
+                    <p>Annual yield: <span>10%</span> </p>
+                    <h5>Total yield: <span>15%</span> </h5>
+                    <a href=""><button>INVEST</button></a>
+                  </div>
+                </div>
+              </div>
+              
+              
+              <div class="item">
+                <div class="card">
+                  <img src="assets/images/download (1).webp" alt="image" class="card-img-top">
+
+                  <div class="deals">
+                    <h5>Term: <span>14months</span> </h5>
+                    <p>LTV: <span>56%</span> </p>
+                    <p>Annual yield: <span>10%</span> </p>
+                    <h5>Total yield: <span>15%</span> </h5>
+                    <a href=""><button>INVEST</button></a>
+                  </div>
+                </div>
+              </div>
+  
+              <div class="item">
+                <div class="card">
+                  <img src="assets/images/download.webp" alt="image" class="card-img-top">
+
+                  <div class="deals">
+                    <h5>Term: <span>14months</span> </h5>
+                    <p>LTV: <span>56%</span> </p>
+                    <p>Annual yield: <span>10%</span> </p>
+                    <h5>Total yield: <span>15%</span> </h5>
+                    <a href=""><button>INVEST</button></a>
+                  </div>
+                </div>
+              </div>
+  
+              <div class="item">
+                <div class="card">
+                  <img src="assets/images/download (1).webp" alt="image" class="card-img-top">
+
+                  <div class="deals">
+                    <h5>Term: <span>14months</span> </h5>
+                    <p>LTV: <span>56%</span> </p>
+                    <p>Annual yield: <span>10%</span> </p>
+                    <h5>Total yield: <span>15%</span> </h5>
+                    <a href=""><button>INVEST</button></a>
+                  </div>
+                </div>
+              </div>
+  
+              <div class="item">
+                <div class="card">
+                  <img src="assets/images/download.webp" alt="image" class="card-img-top">
+
+                  <div class="deals">
+                    <h5>Term: <span>14months</span> </h5>
+                    <p>LTV: <span>56%</span> </p>
+                    <p>Annual yield: <span>10%</span> </p>
+                    <h5>Total yield: <span>15%</span> </h5>
+                    <a href=""><button>INVEST</button></a>
+                  </div>
+                </div>
+              </div>
+  
+              <div class="item">
+                <div class="card">
+                  <img src="assets/images/download (1).webp" alt="image" class="card-img-top">
+
+                  <div class="deals">
+                    <h5>Term: <span>14months</span> </h5>
+                    <p>LTV: <span>56%</span> </p>
+                    <p>Annual yield: <span>10%</span> </p>
+                    <h5>Total yield: <span>15%</span> </h5>
+                    <a href=""><button>INVEST</button></a>
+                  </div>
+                </div>
+              </div>
+  
+              <div class="item">
+                <div class="card">
+                  <img src="assets/images/download.webp" alt="image" class="card-img-top">
+
+                  <div class="deals">
+                    <h5>Term: <span>14months</span> </h5>
+                    <p>LTV: <span>56%</span> </p>
+                    <p>Annual yield: <span>10%</span> </p>
+                    <h5>Total yield: <span>15%</span> </h5>
+                    <a href=""><button>INVEST</button></a>
+                  </div>
+                </div>
+              </div>
+  
+              <div class="item">
+                <div class="card">
+                  <img src="assets/images/download (1).webp" alt="image" class="card-img-top">
+
+                  <div class="deals">
+                    <h5>Term: <span>14months</span> </h5>
+                    <p>LTV: <span>56%</span> </p>
+                    <p>Annual yield: <span>10%</span> </p>
+                    <h5>Total yield: <span>15%</span> </h5>
+                    <a href=""><button>INVEST</button></a>
+                  </div>
+                </div>
+              </div>
+  
+  
+     
+          </div>
+          </div>
+        </div>
+      </section>
+
+
+    <!-- footer -->
+
+    <footer>
+
+        <div class="foot1">
+            <ul>
+                <h5>COMPANY</h5>
+                <li><a href="">Our Story</a></li>
+                <li><a href="">Contact Us</a></li>
+                <li><a href="">Careers</a></li>
+                <li><a href="">Press</a></li>
+            </ul>
+
+            <ul>
+                <h5>INVEST</h5>
+                <li><a href="">Benefits of Investing</a></li>
+                <li><a href="">How It Works</a></li>
+                <li><a href="">Investment Options</a></li>
+                <li><a href="">Auto Invest</a></li>
+            </ul>
+
+            <ul>
+                <h5>LEARN</h5>
+                <li><a href="">Knowledge Center</a></li>
+                <li><a href="">Why Commercial Real Estate</a></li>
+                <li><a href="">Why REITs</a></li>
+                <li><a href="">Retirement Investing</a></li>
+                <li><a href="">FAQs</a></li>
+                <li><a href="">Glossary</a></li>
+            </ul>
+
+            <ul>
+                <h5>FINANCING</h5>
+                <li><a href="">Financing Overview</a></li>
+                <li><a href="">Our JV Equity Process</a></li>
+                <li><a href="">Apply for Equity Capital</a></li>
+            </ul>
+
+            <ul>
+                <a href=""><h5>CALL (877) 977-2776</h5></a>
+            </ul>
+
+        </div>
+
+        <div class="media">
+            <p>© 2023 RM Technologies LLC. All rights reserved.</p>
+            <div class="socials">
+
+            </div>
+        </div>
+
+    </footer>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+
+    <!-- cdn files -->
+    <!-- jQuery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js" integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!-- 1. owl carousel -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <!-- 2 -->
+
+    <!-- owl carousel -->
+    <script>
+
+        
+              $('.anoda-carousel').owlCarousel({
+            loop:true,
+            margin:10,
+            nav:true,
+            responsive:{
+                0:{
+                    items:1
+                },
+                600:{
+                    items:1
+                },
+                1000:{
+                    items:2
+                }
+            }
+        })
+        
+        
+        var owl = $('.anoda-carousel');
+        owl.owlCarousel({
+            items:3,
+            loop:true,
+            margin:2,
+            autoplay:false,
+            autoplayTimeout:2000,
+            autoplayHoverPause:false
+        });
+        
+        var owl = $('.first-carousel');
+        owl.owlCarousel({
+            // items:3,
+            responsive:{
+                0:{
+                    items:1
+                },
+                600:{
+                    items:2
+                },
+                1000:{
+                    items:3
+                }
+            },
+            loop:true,
+            margin:5,
+            autoplay:true,
+            autoplayTimeout:2000,
+            autoplayHoverPause:true
+        });
+        $('.play').on('click',function(){
+            owl.trigger('play.owl.autoplay',[0])
+        })
+        $('.stop').on('click',function(){
+            owl.trigger('stop.owl.autoplay')
+        })
+        
+        
+               
+        
+        
+        
+        
+        
+        
+             </script>
+             <script src="script/main.js"></script>
+            
+</body>
+
+</html>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="73px" height="73px" viewBox="0 0 73 73" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52 (66869) - http://www.bohemiancoding.com/sketch -->
+    <title>desktop/icon/large/symbols/IO_Overview/Management</title>
+    <desc>Created with Sketch.</desc>
+    <g id="desktop/icon/large/symbols/IO_Overview/Management" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <g id="Group" transform="translate(8.000000, 8.000000)" stroke="#202020" stroke-width="1.5">
+            <g id="login-keys">
+                <path d="M30.875,23.5175 C30.8730188,15.7229115 24.9014441,9.22869454 17.1343759,8.57427362 C9.36730781,7.91985271 2.39328295,13.3233272 1.0871091,21.007696 C-0.219064749,28.6920648 4.57792195,36.0963526 12.125,38.045 L12.125,53.385 C12.125,55.4560678 13.8039322,57.135 15.875,57.135 C17.9460678,57.135 19.625,55.4560678 19.625,53.385 L19.625,38.045 C26.2491512,36.3346517 30.8767388,30.3588937 30.875,23.5175 Z" id="Shape"></path>
+                <path d="M32.9075,38.375 C34.866399,38.1045729 36.7520605,37.447693 38.455,36.4425 L50.7225,48.7075 C52.1939208,50.1286458 54.5328179,50.1083214 55.9793197,48.6618197 C57.4258214,47.2153179 57.4461458,44.8764208 56.025,43.405 L43.75,31.14 C47.2132427,25.2739848 46.2888453,17.8108329 41.4990704,12.9670491 C36.7092956,8.12326527 29.2569775,7.11524666 23.3525,10.5125" id="Shape"></path>
+                <circle id="Oval" cx="15.875" cy="21.6425" r="3.75"></circle>
+                <path d="M15.875,17.8925 L15.875,6.5 C15.875,3.39339828 18.3933983,0.875 21.5,0.875 C24.6066017,0.875 27.125,3.39339828 27.125,6.5 L27.125,8.9725" id="Shape"></path>
+            </g>
+        </g>
+    </g>
+</svg>

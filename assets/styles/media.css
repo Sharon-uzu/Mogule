@@ -1,0 +1,517 @@
+@media screen and (max-width:1500px){
+   .hero-s{
+      height: 95vh;
+    }
+}
+
+@media screen and (max-width:1000px){
+
+    .header-nav .logo{
+        width: 50% ;
+    }
+    .header-nav .logo img{
+      width: 65% ;
+  }
+    .header-nav .in{
+        margin-left: 0;
+    }
+    .header-nav .lists{
+      margin-top: 2.1rem;
+      padding-bottom: 1rem;
+  }
+  .header-nav .in{
+  flex-direction: column;
+  margin-left: 0;
+  align-items: start;
+}
+.header-nav .blue-link{
+  width: fit-content;
+ padding: 10px;
+ margin-top: 5px;
+}
+
+
+/* sign */
+
+.sign form{
+   width: 100%;
+ }
+ .sign form .top h4{
+  font-size: 16px;
+ }
+ .sign form h3{
+   font-size: 17px;
+ }
+ .sign form .input a{
+   font-size: 17px;
+ }
+
+
+ /* join */
+ .join form{
+   width: 100%;
+ }
+ .join form .top h4{
+   font-size: 16px;
+ }
+ .join form .form .input1{
+   flex-direction: column;
+ }
+ .join form .form .input1 input{
+   width: 100%;
+   margin-bottom: .7rem;
+ }
+
+ .join form .form .inv{
+   flex-direction: column;
+ }
+
+ .join form .form .inv .acc{
+   width: 100%;
+ }
+ .join form .form .inv .radio{
+   width: 90%;
+
+ }
+ .txt{
+   width: 100%;
+   font-size: 14px;
+ }
+ #check{
+   width: 16%;
+}
+
+
+    /* hero */
+    .hero-s{
+      height: 70vh;
+      padding-top: 15rem;
+    }
+    .hero-s h3{
+        font-size: 2.5rem;
+        width: 90%;
+        margin: auto;
+        margin-bottom: 1rem;
+    }
+
+    .hero-s h1{
+        font-size: 15px;
+    }
+    .hero-s h4{
+        font-size: 15px;
+    }
+    .hero-s button{
+        width: 50%;
+     }
+    
+
+     /* explore  */
+.explore{
+    width: 85%;
+    flex-direction: column;
+}
+.explore .explore-l{
+    width: 100%;
+}
+.explore .explore-l h2{
+    font-size: 19px;
+    width: 90%;
+    margin-bottom: 1rem;
+}
+.explore .explore-l h5{
+   font-size: 14px;
+   width: 90%;
+   margin-bottom: 1.5rem;
+}
+.explore .explore-r .one h5{
+   font-size: 14px;
+}
+.explore .explore-l button{
+  margin-bottom: 2rem;
+  width: 75%;
+}
+.explore .explore-r{
+    width: 100%;
+}   
+
+
+ /* platform */
+ .platform{
+   flex-direction: column;
+    
+ }
+ .platform .overlay {
+    width: 100%;
+    height: 70vh;
+    
+ }
+ .platform .overlay .overlay-txt{
+    width: 85%;
+ }
+ .platform .overlay h2{
+    font-size: 1.5rem;
+    margin-top: 3rem;
+ }
+ .platform .p-text{
+    width: 100%;
+ }
+ .platform .p-text .p-txt1{
+   width: 90%;
+   margin: auto;
+}
+.platform .p-text .p-t1{
+   height: auto;
+   padding: 2.5rem 0;
+   
+
+}
+.platform .p-text .p-t1 p{
+  font-size: 15PX;
+}
+
+
+ /* income */
+ .income{
+    padding: 2rem 0;
+ }
+ .income .income-c{
+    width: 90%;
+    flex-direction: column;
+ }
+ .income .income-c .invest{
+    width: 100%;
+ }
+
+ .income .income-c .obj{
+    font-size: 17px;
+  }
+  .income .income-c h2{
+    margin-top: 1rem;
+    font-size: 20px;
+    margin-bottom: 1.5rem;
+   }
+   .income .income-c .price{
+    width: 100%;
+    margin-top: 20px;
+ }
+ .income .income-c p{
+  font-size: 16PX;
+  }
+ .income .income-c .price .token{
+    margin-top: .6rem;
+    display: none;
+ }
+
+ .income .income-c .price .token .pre-symbol{
+    font-size: 30px;
+ }
+
+ .income .income-c .price .token .token-text{
+    font-size: 60px;
+ }
+ .income .income-c .price .token .post-symbol{
+    font-size: 30px;
+ }
+
+  /* record */
+
+  .record{
+   width: 85%;
+   margin: auto;
+   text-align: left;
+}
+
+  .record h3{
+    font-size: 22px;
+    margin-bottom: 1rem;
+ }
+
+ .record h6{
+    font-size: 13px;
+ }
+
+ .record span{
+    font-size: 22px;
+ }
+
+ .record .record-flex{
+    width: 100%;
+    flex-direction: column;grid-template-columns: 1fr;
+ }
+ .record  button{
+    width: 85%;
+    margin-top: 1.5rem;
+ }
+ .record p{
+    width: 98%;
+    font-size: 15px;
+ }
+
+ /* real */
+
+ .real .real-c{
+    width: 85%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+ }
+
+ .real .real-c .future{
+    width: 100%;
+ }
+ .real .real-c .future h2{
+    font-size: 20px;
+    width: 100%;
+    margin-bottom: 1rem;
+  }
+  .real .real-c .future p{
+    font-size: 16px;
+    width: 100%;
+    margin-bottom: 1.5rem;
+  }
+
+  .real .real-c .members{
+    width: 100%;
+    margin-top: 1rem;
+ }
+ .real .real-c .members .inv{
+    width: 100%;
+ }
+ .real .real-c .members .inv span{
+   font-size: 23px;
+}
+.real .real-c .members .inv h4{
+   font-size: 16px;
+}
+
+ /* journal */
+ .journal  img{
+    width: 30%;
+}
+
+.journal h6{
+   font-size: 16.5px;
+    width: 85%;
+}
+/* disclaimer */
+.disclaimer h6{
+    width: 85%;
+}
+.disclaimer p{
+    width: 85%;
+}
+
+/* footer */
+
+footer .foot1{
+   width: 95%;
+    grid-template-columns: 1fr ;
+}
+
+footer .foot1 h5{
+    font-size: 15px;
+}
+footer .foot1  a{
+    font-size: 14px;
+}
+
+footer .media{
+   flex-direction: column;
+}
+
+footer .media p{
+    font-size: 15px;
+}
+
+/* invest html */
+.invest{
+   grid-template-columns:  1fr 1fr;
+}
+
+
+/* detail html */
+.hero .hero-f{
+   width: 100%;
+   flex-direction: column;
+}
+.hero .hero-f .left{
+   width: 80%;
+   margin: auto;
+}
+.hero .hero-f .left h5{
+   width: 100%;
+   font-size: 14px;
+}
+.hero .hero-f .left h1{
+   font-size: 44px;
+}
+.hero .hero-f .left .value{
+   grid-template-columns: 1fr;
+   margin-top: .5rem;
+}
+
+
+.hero .hero-f .right{
+   width: 100%;
+   margin: auto;
+}
+
+/* pix */
+
+.pix{
+   width: 90%;
+   margin: auto;
+   padding-top: 1rem 0;
+}
+
+.pix img{
+   width: 90%;
+   margin: auto;
+   height: 4rem;
+}
+
+/* overview */
+.overview{
+   width: 90%;
+   margin: auto;
+}
+.key{
+  flex-direction: column;
+}
+.key .key1{
+   width: 100%;
+  
+}
+
+/* property */
+.property{
+   width: 90%;
+}
+
+.property h2{
+   font-size: 28px;
+}
+.property .prop{
+   flex-direction: column;
+}
+
+.property .prop .prop1{
+   width: 95%;
+   margin: auto;
+}
+
+
+/* highlight */
+
+.highlight {
+   width: 90%;  
+}
+
+.highlight h1{
+   font-size: 30px;
+}
+
+.highlight ul li{
+   font-size: 16px;
+}
+
+ /* management  */
+
+.manage{
+   padding: 1.5rem;
+   width: 100%;
+}
+.manage h1{
+   font-size: 30px;
+}
+
+.manage .manage-f{
+  flex-direction: column;
+}
+
+.manage .manage-f .manage1{
+   width: 100%;
+   margin: auto;
+   margin-bottom: 1rem;
+}
+.manage .manage-f .manage1 p{
+   font-size: 15px;
+}
+
+
+/* Business */
+
+.business .business-c{
+   width: 90%;
+}
+.business .business-c h3{
+   font-size: 28px;
+}
+
+/* today */
+
+.today h2{
+   font-size: 28px;
+}
+.today button{
+   width: 30%;
+}
+
+
+/* incomeR html */
+.income-hero .income-hero-bg .income-hero-c{
+   width: 80%;
+  flex-direction: column;
+}
+.income-hero .income-hero-bg .income-hero-c .income-hero-l{
+   width: 100%;
+}
+.income-hero .income-hero-bg .income-hero-c .income-hero-l h2{
+   font-size: 48px;
+   margin-top: 0;
+}
+
+
+.income-hero .income-hero-bg .income-hero-c .income-hero-r{
+   width: 100%;
+}
+
+
+}
+
+@media screen and (max-width:550px){
+   .hero-s{
+      height: 93vh;
+      padding-top: 10rem;
+    }
+
+    
+    /* invest html */
+   .invests{
+      grid-template-columns:  1fr;
+   }
+}
+
+@media screen and (max-width:350px){
+   .hero-s{
+      height: 96vh;
+    }
+    .platform .overlay {
+      height: 85vh;
+      
+   }
+
+   .property h2{
+      font-size: 23px;
+   }
+
+   .manage h1{
+      font-size: 22px;
+   }
+
+
+   .highlight h1{
+      font-size: 24px;
+   }
+
+}
